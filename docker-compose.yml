@@ -7,7 +7,7 @@ services:
       dockerfile: Dockerfile
     container_name: houseparty-docs
     ports:
-      - "8080:80"
+      - "${PORT:-8080}:80"
     restart: unless-stopped
     environment:
       - TZ=UTC
