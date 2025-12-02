@@ -1,0 +1,6 @@
+site_name: Houseparty
+site_url: https://geene-house.party/
+theme:
+  name: material
+  palette:
+    primary: cyan
